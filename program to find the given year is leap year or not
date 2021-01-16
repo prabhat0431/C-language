@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int n;
+    printf("Enter Year=");
+    scanf("%d",&n);
+    if(n%4==0)
+    {
+     printf("This is LEAP Year");
+    }
+    else
+    {
+        printf("This is not LEAP Year");
+    }
+    return 0;
+}
